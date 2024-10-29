@@ -1,0 +1,6 @@
+[submodule "wex-transaction-gateway"]
+	path = wex-transaction-gateway
+	url = https://github.com/thiagocircuncisao/wex-transaction-gateway.git
+[submodule "wex-transaction-transaction-service"]
+	path = wex-transaction-transaction-service
+	url = https://github.com/thiagocircuncisao/wex-transaction-transaction-service.git
