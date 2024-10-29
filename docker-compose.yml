@@ -13,8 +13,9 @@ services:
       - backend
 
   gateway:
+    container_name: gateway
     build:
-      context: ./gateway
+      context: ./wex-transaction-gateway
     ports:
       - "8080:8080"
     depends_on:
@@ -23,8 +24,9 @@ services:
       - backend
 
   transaction-service:
+    container_name: transaction-service
     build:
-      context: ./transaction-service
+      context: ./wex-transaction-transaction-service
     ports:
       - "8081:8081"
     environment:
